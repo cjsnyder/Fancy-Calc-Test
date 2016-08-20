@@ -6,6 +6,16 @@ name = input("What is your wonderful name?")
 print("Nice to meet you, %s!" % name)
 print(name) #Showing myself input
 
+oper = input("Enter Operator: ") #Requests simple operator
 
+if oper == "add":  #checks to see what operator input was
     num1 = float(input("First Number: "))
     num2 = float(input("Second Number: "))
+    result = (num1 + num2) #because oper was add the numbers are added and printed. SIMPLE!
+    print(result)
+
+if oper == "subtract": #subtraction ability
+    num1 = float(input("First Number: "))
+    num2 = float(input("Second Number: "))
+    result = (num1 - num2)
+    print(result)
