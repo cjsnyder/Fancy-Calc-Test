@@ -3,5 +3,9 @@ print("Welcome to your Fancy Calculator!")
 print("I will call you by your name, because who doesnt love that?")
 name = input("What is your wonderful name?")
 
-print("Nice to meet you, %s!" % name) 
-print(name)
+print("Nice to meet you, %s!" % name)
+print(name) #Showing myself input
+
+
+    num1 = float(input("First Number: "))
+    num2 = float(input("Second Number: "))
